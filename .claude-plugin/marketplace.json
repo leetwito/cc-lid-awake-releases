@@ -1,0 +1,15 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "cc-lid-awake",
+  "description": "Official plugin marketplace for cc-lid-awake — keeps your Mac awake (lid closed, AC or battery) while Claude Code is working.",
+  "owner": { "name": "leetwito" },
+  "plugins": [
+    {
+      "name": "cc-lid-awake",
+      "description": "Keeps Mac awake (lid closed, AC or battery) while Claude Code sessions are active. Requires the cc-lid-awake app: https://leetwito.gumroad.com/l/cc-lid-awake",
+      "version": "1.0.0",
+      "author": { "name": "Lee Twito" },
+      "source": "./plugins/cc-lid-awake"
+    }
+  ]
+}

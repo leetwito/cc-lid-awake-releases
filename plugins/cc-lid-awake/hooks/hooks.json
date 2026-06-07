@@ -1,0 +1,22 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      { "hooks": [ { "type": "command", "command": "[ -x /usr/local/bin/cc-lid-awake ] && /usr/local/bin/cc-lid-awake caffeinate || true" } ] }
+    ],
+    "PreToolUse": [
+      { "hooks": [ { "type": "command", "command": "[ -x /usr/local/bin/cc-lid-awake ] && /usr/local/bin/cc-lid-awake caffeinate || true" } ] }
+    ],
+    "PostToolUse": [
+      { "hooks": [ { "type": "command", "command": "[ -x /usr/local/bin/cc-lid-awake ] && /usr/local/bin/cc-lid-awake caffeinate || true" } ] }
+    ],
+    "SubagentStop": [
+      { "hooks": [ { "type": "command", "command": "[ -x /usr/local/bin/cc-lid-awake ] && /usr/local/bin/cc-lid-awake caffeinate || true" } ] }
+    ],
+    "Stop": [
+      { "hooks": [ { "type": "command", "command": "[ -x /usr/local/bin/cc-lid-awake ] && /usr/local/bin/cc-lid-awake caffeinate || true" } ] }
+    ],
+    "SessionEnd": [
+      { "hooks": [ { "type": "command", "command": "[ -x /usr/local/bin/cc-lid-awake ] && /usr/local/bin/cc-lid-awake uncaffeinate || true" } ] }
+    ]
+  }
+}

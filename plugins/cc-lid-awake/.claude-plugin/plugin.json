@@ -1,0 +1,6 @@
+{
+  "name": "cc-lid-awake",
+  "version": "1.0.0",
+  "description": "Keeps Mac awake (lid closed, AC or battery) while Claude Code sessions are active.",
+  "author": { "name": "Lee Twito" }
+}
