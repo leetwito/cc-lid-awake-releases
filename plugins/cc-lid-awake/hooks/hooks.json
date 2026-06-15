@@ -15,6 +15,9 @@
     "Stop": [
       { "hooks": [ { "type": "command", "command": "[ -x /usr/local/bin/cc-lid-awake ] && /usr/local/bin/cc-lid-awake caffeinate || true" } ] }
     ],
+    "Notification": [
+      { "hooks": [ { "type": "command", "command": "[ -x /usr/local/bin/cc-lid-awake ] && /usr/local/bin/cc-lid-awake uncaffeinate || true" } ] }
+    ],
     "SessionEnd": [
       { "hooks": [ { "type": "command", "command": "[ -x /usr/local/bin/cc-lid-awake ] && /usr/local/bin/cc-lid-awake uncaffeinate || true" } ] }
     ]
